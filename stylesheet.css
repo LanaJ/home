@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'minion';
+  src: url('MinionProRegular.ttf');
+}
+
+.header {
+  font-family: 'minion';
+  background-image: url('back.jpg');
+  background-size: cover;
+}
+
+/*.header__back {
+  margin: 0 0 0 312px;
+  background-color: rgba(250, 251, 251, 0.7);
+  height: 928px;
+  width: 661px;
+  display: block;
+  position: absolute;
+}*/
+
+.header__img {
+  margin: 10px 0 0 312px;
+  width: 661px;
+}
+
+.header__title {
+  margin: 12px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.header__line {
+  width: 76px;
+  height: 2px;
+  background-color: black;
+}
+
+.header__text {
+  text-align: center;
+  padding: 14px;
+}
+
+.header__h2 {
+  text-align: center;
+}
+
+.header__table {
+  margin-left: 334px;
+  padding: 18px 21px 0 26px;
+  background-color: rgb(158, 205, 249);
+}
+
+.header__contact {
+  text-align: center;
+  margin: 20px;
+}
+
+.header__row {
+  margin: 0 0 0px 575px;
+}
+
+.header__link {
+  margin: 0px 10px;
+}
